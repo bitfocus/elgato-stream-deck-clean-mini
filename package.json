@@ -1,11 +1,11 @@
 {
   "name": "elgato-stream-deck-clean-mini",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm module for interfacing with the Elgato Stream Deck Mini. Without image library dependencies. (clean)",
   "main": "index.js",
   "typings": "typings.d.ts",
   "dependencies": {
-    "node-hid": "^0.6.0"
+    "node-hid": "^0.7.9"
   },
   "devDependencies": {
     "ava": "^0.23.0",

@@ -92,6 +92,8 @@ class StreamDeck extends EventEmitter {
 	constructor(devicePath) {
 		super();
 
+		HID.setDriverType('libusb');
+
 		if (typeof devicePath === 'undefined') {
 			// Device path not provided, will then select any connected device.
 			const devices = HID.devices();
